@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+}
+.heading {
+    text-align: center;
+    background-color: #34495e;
+    padding: 9px;
+}
+.heading h1{
+    color: #fff;
+}
+.banner-section{
+    background-image: url("./img/pexels-photo-1008000.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    height: 580px;
+}
+.banner-section h2{
+    text-align: center;
+    color: #fff;
+}
+/* banner-end */
+
+/* title-section */
+.title-section {
+    background-color: #0d6efd;
+    padding: 10px 0px;
+    position: relative;
+    height: 400px;
+}
+.title-one {
+    width: 362px;
+    background-color: #e67e22;
+    text-align: center;
+    padding: 10px 11px;
+    position: absolute;
+    left: 128px;
+    top: 67px;
+    border-radius: 0px 35px 35px 0px;
+    box-shadow: -2px 0px 1px black;
+}
+.image{}
+.image img{}
+.title-text{}
+.title-text h1 {
+    color: #fff;
+    font-size: 29px;
+    padding: 3px 0px;
+}
+.title-text p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.title-two {
+    width: 362px;
+    background-color: #1abc9c;
+    text-align: right;
+    padding: 10px 11px;
+    position: absolute;
+    bottom: 27px;
+    right: 196px;
+    border-radius: 35px 0px 0px 34px;
+    box-shadow: 2px 0px 2px white;
+}
+.image-two{}
+.image-two img{}
+.title-text-2{}
+.title-text-2 h1{
+    color: #fff;
+    font-size: 29px;
+    padding: 3px 0px;
+}
+.title-text-2 p {
+    text-align: right;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+}
+/* title end */
+
+/* flag-section */
+.flag-section {
+    background-color: #4d687a;
+    text-align: center;
+    padding: 4px;
+    height: 1000px;
+}
+.flag-head {
+    padding: 4px;
+}
+.flag-head h1{
+    color: #fff;
+}
+.bangla {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+}
+.bangla h4 {
+    font-size: 21px;
+    padding: 6px;
+}
+.green {
+    background-color: green;
+    width: 377px;
+    height: 193px;
+    display: inline-block;
+    box-shadow: 1px 1px 9px white;
+   
+}
+.red {
+    height: 141px;
+    width: 165px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+.eng{
+    position: relative;
+    margin: 4px 0px;
+   
+}
+.eng h4{
+    font-size: 21px;
+    padding: 6px;
+}
+.white {
+    background-color: #fff;
+    width: 377px;
+    height: 193px;  
+    display: inline-block;
+    box-shadow: 0px 2px 4px black;
+}
+.red-2 {
+    position: absolute;
+    top: 46%;
+    left: 35%;
+    width: 377px;
+    height: 20px;
+    background-color: red;
+}
+.red-3 {
+    position: absolute;
+    top: 0%;
+    left: 57%;
+    width: 22px;
+    height: 193px;
+    background-color: red;
+}
+.japan{
+    position: relative;
+}
+.japan h4{
+    font-size: 21px;
+    padding: 6px;
+}
+.white-2 {
+    background-color: #fff;
+    width: 377px;
+    height: 193px;  
+    display: inline-block;
+    display: inline-block;
+    box-shadow: 0px 2px 4px black;
+}
+.red-4 {
+    padding: 64px;
+    width: 165px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+.germany{
+    position: relative;
+    display: inline-block;
+}
+.germany h4{
+    font-size: 21px;
+    padding: 6px;
+}
+.black {
+    width: 377px;
+    height: 56px;
+    background-color: black;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.orange{
+    width: 377px;
+    height: 56px;
+    background-color: #ff0000;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.yellow{
+    width: 377px;
+    height: 56px;
+    background-color: yellow;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+/* flag section end */
+
+/* footer */
+.footer-section {
+    text-align: center;
+    background-color: green;
+    padding: 9px;
+}
+.footer-section h2{
+    color: #fff;
+}
+/* footer end */
